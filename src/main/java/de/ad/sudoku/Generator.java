@@ -47,9 +47,7 @@ public class Generator {
 
   private Grid generate() {
     Grid grid = Grid.emptyGrid();
-
     solver.solve(grid);
-
     return grid;
   }
 }
